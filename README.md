@@ -3,7 +3,7 @@
 **Dibuat oleh:** Muhammad Zackuy Makarim <br>
 **NIM:** H1D024121 <br>
 **Shift Baru:** A <br>
-**Shift KRS:** D\n <br>
+**Shift KRS:** D <br>
 
 ---
 
