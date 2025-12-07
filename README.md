@@ -1,9 +1,9 @@
 # Responsi 2 - Praktikum Pemrograman Berorientasi Objek
 
-**Dibuat oleh:** Muhammad Zackuy Makarim
-**NIM:** H1D024121
-**Shift Baru:** A    
-**Shift KRS:** D
+**Dibuat oleh:** Muhammad Zackuy Makarim\n
+**NIM:** H1D024121\n
+**Shift Baru:** A\n 
+**Shift KRS:** D\n
 
 ---
 
