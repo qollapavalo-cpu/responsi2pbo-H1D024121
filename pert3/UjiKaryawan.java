@@ -4,19 +4,13 @@ class UjiKaryawan {
         System.out.println("=== DATA KARYAWAN TECHMAJU ===");
 
         // Buat objek Karyawan biasa (Budi)
-        
-        
-        // Tampilkan info Karyawan biasa
-        System.out.println("Status: Karyawan Biasa");
-        
-        
+        Karyawan karyawanLamaGajiUMR = new Karyawan("Joko Santoso", 4500000);
+        karyawanLamaGajiUMR.tampilInfo();
+
         System.out.println(); // Baris baru/jarak
 
         // Buat objek Manajer (Siti)
-        
-        
-        // Tampilkan info Manajer
-        System.out.println("Status: Manajer");
-        
+        Manajer manajerAnakBos = new Manajer("Sri Mutia", 6000000, 2500000);
+        manajerAnakBos.tampilInfo();
     }
 }

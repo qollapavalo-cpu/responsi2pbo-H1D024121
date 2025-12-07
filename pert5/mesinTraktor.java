@@ -1,27 +1,27 @@
 class mesinTraktor extends defaultMesin {
-    // Variabel khusus mesin traktor (kapasitasTarik)
+    protected double kapasitasTarik;
 
-    // Constructor
-    mesinTraktor(String nama, int hp, double tarik) {
+    public mesinTraktor(String nama, int hp, double kapasitasTarik) {
         super(nama, hp);
+        this.kapasitasTarik = kapasitasTarik;
     }
 
     @Override
-    void tampilInfo() {
-        // Override info mesin traktor
+    public void tampilInfo() {
+        System.out.println("Mesin Traktor " + namaMesin + " | Tarik: " + kapasitasTarik + " ton | Tenaga: " + tenagaHP + " HP");
     }
 
     @Override
-    double nilaiPerforma() {
-        // Override performa traktor
+    public double nilaiPerforma() {
+        return (tenagaHP * 0.9) + (kapasitasTarik * 10);
     }
 
     @Override
-    String kategoriMesin() {
-        // Override kategori traktor
+    public String kategoriMesin() {
+        return "Mesin Traktor";
     }
 
-    void suaraMesin() {
-        // Suara traktor
+    public String suaraMesin() {
+        return "GGGRRRR! Hidup mesinnn!";
     }
 }
